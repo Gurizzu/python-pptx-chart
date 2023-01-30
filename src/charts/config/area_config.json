@@ -1,0 +1,165 @@
+{
+    "paperSize": [
+        1200,
+        900
+    ],
+    "slides": [
+        {
+            "widgets": [
+                {
+                    "id" : "12oas4kdj87adad8e82e89usdsdu",
+                    "left": 6.87,
+                    "top": 1.59,
+                    "height": 5.93,
+                    "width": 4.33,
+                    "widget": {
+                        "type":"chart",
+                        "has_title":false,
+                        "widget_data": {
+                            "categories": ["pks", "gerindra", "psi", "pdi-p", "ppp","pbb","demokrat","pkb","golkar","pan"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "categories_point": [336, 196, 161, 55, 35, 31, 31, 27, 20, 16]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA",
+                            "format": {
+                                "legend": {
+                                    "has_legend":false,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "visible": false,
+                                        "axis_title":false,
+                                        "has_major_gridlines":false,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"none",
+                                        "tick_label_position": "HIGH",
+                                        "color":"000000",
+                                        "font_size": 11,
+                                        "reverse_order": false
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW",
+                                        "font_size": 11,
+                                        "reverse_order":true
+
+                                    },
+                                    "data_label":{
+                                        "has_data_labels":true,
+                                        "position": "OUTSIDE_END",
+                                        "font_size": 11
+                                        
+                                    }
+                                    
+
+                                },
+                                "chart_series":{
+                                    "color":"D84E2E",
+                                    "bar_plot_gap_width":83
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-borderRadius.png",
+                    "left": 9.03,
+                    "top": 1.92,
+                    "height": 4.33,
+                    "width": 4.21,
+                    "widget": {
+                        "type":"chart",
+                        "has_title":false,
+                        "widget_data": {
+                            "categories": ["istj", "isfj", "intj", "istp", "infj","estj ","intp","entj","infp","isfp"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "categories_point": [883, 550, 497, 435, 367, 364, 315, 301, 226, 211]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA_STACKED",
+                            "format": {
+                                "legend": {
+                                    "has_legend":false,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":false,
+                                        "has_major_gridlines":false,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"none",
+                                        "tick_label_position": "none",
+                                        "color":"000000",
+                                        "font_size": 11,
+                                        "reverse_order": false
+
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW",
+                                        "font_size": 11,
+                                        "reverse_order":true
+                                    },
+                                    "data_label":{
+                                        "has_data_labels":true,
+                                        "position": "OUTSIDE_END",
+                                        "font_size": 11
+                                        
+                                    }
+                                    
+
+                                },
+                                "chart_series":{
+                                    "color": "D84E2E",
+                                    "bar_plot_gap_width":83
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                }
+            ]
+        }
+    ]
+    
+    
+    }

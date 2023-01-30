@@ -1,0 +1,733 @@
+{
+    "paperSize": [
+        1200,
+        900
+    ],
+    "slides": [
+        {
+            "widgets": [
+                {
+                    "id" : "pie-simple.png",
+                    "left":0.74,
+                    "top": 0.86,
+                    "link": "//*[@id='chart-row-pie']/div[1]/div/a",
+                    "height": 2.96,
+                    "width": 2.96,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "INSIDE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":["3C2F80","3C2F80","3C2F80"]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-borderRadius.png",
+                    "left":4.52,
+                    "top": 0.86,
+                    "link": "//*[@id='chart-row-pie']/div[2]/div/a",
+                    "height": 2.96,
+                    "width": 2.96,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"PIE",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-custom.png",
+                    "left": 8.3,
+                    "top": 0.86,
+                    "link": "//*[@id='chart-row-pie']/div[4]/div/a",
+                    "height": 2.96,
+                    "width": 2.96,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"PIE",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-simple.png",
+                    "left":0.74,
+                    "top": 4.5,
+                    "link": "//*[@id='chart-row-pie']/div[1]/div/a",
+                    "height": 2.96,
+                    "width": 2.96,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"PIE",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-borderRadius.png",
+                    "left": 4.52,
+                    "top": 4.5,
+                    "link": "//*[@id='chart-row-pie']/div[2]/div/a",
+                    "height": 2.96,
+                    "width": 2.96,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"PIE",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-custom.png",
+                    "left": 8.3,
+                    "top": 4.5,
+                    "link": "//*[@id='chart-row-pie']/div[4]/div/a",
+                    "height": 2.96,
+                    "width": 2.96,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                }
+            ]
+        },{
+            "widgets": [
+                {
+                    "id" : "pie-borderRadius.png",
+                    "left": 0.73,
+                    "top": 1.87,
+                    "link": "//*[@id='chart-row-pie']/div[2]/div/a",
+                    "height": 5.27,
+                    "width": 5.27,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-borderRadius.png",
+                    "left": 6,
+                    "top": 1.87,
+                    "link": "//*[@id='chart-row-pie']/div[2]/div/a",
+                    "height": 5.27,
+                    "width": 5.27,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "INSIDE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                }
+            ]
+        }, {
+            "widgets": [
+                {
+                    "id" : "pie-custom.png",
+                    "left":0.33,
+                    "top":0.35,
+                    "width":11.35,
+                    "height":0.77,
+                    "widget": {
+                        "type":"text",
+                        "textbox": {
+                            "text": "Data Kematian Akibat Kasus Covid Tahun 2020-2022",
+                            "bold": true,
+                            "align": "JUSTIFY"
+                        }
+                    }
+                },
+                {
+                    "id" : "pie-custom.png",
+                    "left":0.32,
+                    "top":5.36,
+                    "width":7.52,
+                    "height":2.83,
+                    "widget": {
+                        "type":"text",
+                        "textbox": {
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+                            "bold": true,
+                            "align": "JUSTIFY"
+                        }
+                    }
+                },
+                {
+                    "id" : "pie-custom.png",
+                    "left":4,
+                    "top":1.39,
+                    "width":7.68,
+                    "height":2.83,
+                    "widget": {
+                        "type":"text",
+                        "textbox": {
+                            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+                            "bold": true,
+                            "align": "JUSTIFY"
+                        }
+                    }
+                },
+                {
+                    "id" : "pie-borderRadius.png",
+                    "left": 0.32,
+                    "top": 1.22,
+                    "link": "//*[@id='chart-row-pie']/div[2]/div/a",
+                    "height": 3.68,
+                    "width": 3.68,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"PIE",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+
+
+                    }
+                },
+                {
+                    "id" : "pie-custom.png",
+                    "left": 7.84,
+                    "top": 4.96,
+                    "link": "//*[@id='chart-row-pie']/div[2]/div/a",
+                    "height": 3.68,
+                    "width": 3.68,
+                    "widget": {
+                        "type":"chart",
+                        "widget_data": {
+                            "categories": ["Twitter", "Youtube", "Instagram", "Facebook", "Tiktok"],
+                            "series": [
+                                {
+                                    "legend": "25 Jan 00:00",
+                                    "point": [451, 54, 32, 18, 3]
+                                },
+                                {
+                                    "legend": "25 Jan 01:00",
+                                    "point": [354, 28, 58, 13, 0]
+                                }
+                            ]
+                        },
+                        "widget_ops":{
+                            "type":"AREA",
+                            "format": {
+                                "legend": {
+                                    "has_legend":true,
+                                    "legend_options":{
+                                        "position": "bottom",
+                                        "horz_offset": "-1.0",
+                                        "include_in_layout":true,
+                                        "font":"bold",
+                                        "underline": true,
+                                        "size": 13,
+                                        "color":[191,191,191]
+                                    }
+                                },
+                                "axis": {
+                                    "value": {
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "HIGH"
+                                    },
+                                    "category":{
+                                        "axis_title":true,
+                                        "has_text_frame":true,
+                                        "has_major_gridlines":true,
+                                        "major_tick_mark": "NONE",
+                                        "number_format":"0.0",
+                                        "tick_label_position": "LOW"
+                                    }
+                                    
+
+                                },
+                                "series":{
+                                    "color":[191,141,191]
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+    
+    
+    }
